@@ -10,4 +10,10 @@ dataSet = {
 df = pd.DataFrame(dataSet)
 print(df)
 
-#ACCESSING THE ROWS
+#filtering the rows
+print("The rows are: ")
+rows = df[df["Age"] > 4]
+print(rows)
+
+#filtering the multiple rows
+print(df[(df["Age"] > 4) & (df["Pin"] > 60)])
