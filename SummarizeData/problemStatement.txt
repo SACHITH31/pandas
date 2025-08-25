@@ -1,0 +1,4 @@
+1. if we don't know how many rows or columns are present in the given data set
+2. if we don't know the type of data it is storing, where the data is missing
+
+to know this we use info()

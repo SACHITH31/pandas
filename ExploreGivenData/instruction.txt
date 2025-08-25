@@ -1,0 +1,5 @@
+To understand the given data to analyse data, to know what data is present, etc..,
+
+Step1- understand the data set(means reading the given data).
+Step2- next identify the problems.
+Step3- plan next steps.
