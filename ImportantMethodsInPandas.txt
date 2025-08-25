@@ -1,0 +1,32 @@
++----+-------------------------------------+--------------------------------------------------------+
+| #  | Method/Attribute                      | Short Explanation                                     |
++----+-------------------------------------+--------------------------------------------------------+
+| 1  | head()                                | Shows first few rows (default 5)                      |
+| 2  | tail()                                | Shows last few rows (default 5)                       |
+| 3  | info()                                | Summary info: columns, types, non-null counts         |
+| 4  | describe()                            | Statistical summary of numeric columns                |
+| 5  | shape                                 | Tuple of (rows, columns)                              |
+| 6  | columns                               | List of column names                                  |
+| 7  | dtypes                                | Data type of each column                              |
+| 8  | astype()                              | Change data type of a column                          |
+| 9  | drop()                                | Drop column(s) or row(s)                              |
+| 10 | dropna()                              | Drop rows/columns with missing values                 |
+| 11 | fillna()                              | Fill missing values with a specific value             |
+| 12 | isna() / notna()                      | Check for missing / non-missing values                |
+| 13 | sort_values()                         | Sort DataFrame by column(s) values                    |
+| 14 | sort_index()                          | Sort DataFrame by index labels                        |
+| 15 | groupby()                             | Group data by column(s) for aggregation               |
+| 16 | agg() / aggregate()                   | Apply aggregation functions to groups or columns      |
+| 17 | mean() / sum() / min() / max()        | Compute basic statistics                              |
+| 18 | apply()                               | Apply a function to rows or columns                   |
+| 19 | merge() / join() / concat()           | Combine DataFrames in different ways                  |
+| 20 | pivot() / pivot_table()               | Reshape data by creating pivot tables                 |
+| 21 | melt()                                | Convert wide data to long format                      |
+| 22 | reset_index() / set_index()           | Reset or set a new index                              |
+| 23 | duplicated() / drop_duplicates()      | Detect or remove duplicate rows                       |
+| 24 | sample()                              | Random sample of rows                                 |
+| 25 | copy()                                | Create a deep copy of DataFrame                       |
+| 26 | to_csv() / read_csv()                 | Save to or read from CSV                              |
+| 27 | to_excel() / read_excel()             | Save to or read from Excel                            |
+| 28 | plot()                                | Quick plotting using matplotlib                       |
++----+-------------------------------------+--------------------------------------------------------+
