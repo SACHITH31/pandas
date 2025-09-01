@@ -31,4 +31,4 @@
 | 28 | plot()                                | Quick plotting using matplotlib                       |
 +----+-------------------------------------+--------------------------------------------------------+
 
-Hello Coderrr Sachith..
+Hello Coderrr K.Sachith..
